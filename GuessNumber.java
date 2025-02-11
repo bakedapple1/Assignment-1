@@ -14,12 +14,16 @@ public class GuessNumber {
         int secretNumber = random.nextInt(10);
         int userGuess;
 
-        userGuess = scanner.nextInt();
+        System.out.println("Guess a number (0-9): ");
+        while (true) {
+            userGuess = scanner.nextInt();
 
-        if (userGuess == secretNumber) {
-            System.out.println("correct!");
-        } else {
-            System.out.println("incorrect");
+            if (userGuess == secretNumber) {
+                System.out.println("Correct!");
+                break;
+            }
+
+            System.out.println("Incorrect, try again: ");
         }
 
         scanner.close();
