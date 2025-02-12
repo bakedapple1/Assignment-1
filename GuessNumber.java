@@ -15,6 +15,7 @@ public class GuessNumber {
         int userGuess;
 
         System.out.println("Guess a number (0-9): ");
+        
         while (true) {
             userGuess = scanner.nextInt();
 
