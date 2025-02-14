@@ -54,10 +54,31 @@ button {
     margin: 10px;
 }
 
-img {
+.images {
     position: relative;
     padding: 15px;
-    margin: 20px;
+    margin: 100px;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#img1 {
+    left: 15%;
+    transform: translateX(-100px) translateY(-50%);
+}
+
+#img2 {
+    left: 50%;
+    transform: translateX(-100px) translateY(-50%);
+}
+
+#img3 {
+    left: 85%;
+    transform: translateX(-100px) translateY(-50%);
 }
 
 h2 {
