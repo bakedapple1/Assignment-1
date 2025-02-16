@@ -9,4 +9,8 @@ num2 = randint(1, 10)
 def AddTwoNums(num1, num2):
     return num1 + num2
 
+def MultiTwoNums(num1, num2):
+    return num1 * num2
+
 print(str(num1) + " + " + str(num2) + " = " + str(AddTwoNums(num1, num2)))
+print(str(num1) + " x " + str(num2) + " = " + str(MultiTwoNums(num1, num2)))
